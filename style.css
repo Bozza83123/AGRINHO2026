@@ -1,1 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* Corpo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f8f2;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(to right, #2e7d32, #4caf50);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Menu de navegação */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #dcedc8;
+}
+
+/* Seções */
+section {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #2e7d32;
+    margin-bottom: 15px;
+    border-left: 5px solid #4caf50;
+    padding-left: 10px;
+}
+
+section p {
+    font-size: 1.1rem;
+}
+
+/* Lista de práticas */
+#praticas ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+#praticas li {
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+}
+
+/* Rodapé */
+footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        margin: 15px;
+        padding: 20px;
+    }
+}

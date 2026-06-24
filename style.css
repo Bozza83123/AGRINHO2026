@@ -126,3 +126,18 @@ nav ul li a.active {
     opacity: 1;
     transform: translateY(0);
 }
+.galeria {
+    margin-top: 30px;      /* espaço entre o texto e as imagens */
+    display: flex;
+    justify-content: center;
+    gap: 20px;             /* espaço entre as imagens */
+    flex-wrap: wrap;       /* quebra linha em telas pequenas */
+}
+
+.galeria img {
+    width: 350px;          /* ajuste o tamanho como desejar */
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
